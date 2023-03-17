@@ -136,8 +136,7 @@ img {
 @media  screen ( min-width: 769px ) {
     body{
         width: 100%;
-    }
-    
+    }   
 }
 
 @media screen and ( max-width: 768px ){
@@ -175,13 +174,15 @@ img {
 
 @media screen and ( min-width: 769px ) {
     .container{
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 @media screen and ( max-width: 768px ){ 
 
     .container{
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
