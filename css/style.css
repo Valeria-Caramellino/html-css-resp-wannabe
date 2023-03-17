@@ -156,6 +156,7 @@ img {
     .row{
         display: flex;
         flex-direction: column;
+        gap: 1em;
     }
 
     .lessons .col {
@@ -163,7 +164,7 @@ img {
     }
     
     .lessons .col img {
-        height: 200px;
+        height: 100px;
         margin-bottom: 1rem;
     }
     }
@@ -191,9 +192,17 @@ img {
         .row{
             display: flex;
             flex-direction: column;
+            gap: 1em;
         }
         .steps .col{
             width: 100%;
         }
+        .steps .col img {
+            height: 100px;
+            margin-bottom: 1rem;
+        }
 
     }
+    /**************************************
+    TERZA SEZIONE WHY US SECTION
+    ***************************************/
