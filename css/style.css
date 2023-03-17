@@ -216,8 +216,20 @@ img {
     .why-us .col-left{
         width: 80%;
     }
+  
 }
 @media screen and ( max-width:480px ) {
+    body{
+        background-color: black;
+    }
+    .lessons{
+        background-color: #232946;
+        padding-bottom: 2em;
+    }
+    .steps{
+        margin: 0;
+        padding-bottom: 3rem;
+    }
     .row{
         display: flex;
         flex-direction: column;
@@ -226,5 +238,18 @@ img {
     }
     .why-us .col-left{
         width: 100%;
+    }  
+    .site-header{
+        padding-top: 3rem;
+        background-color: #232946;
+        margin: 0;
+        margin-bottom: 0;
+    }
+    h1{
+        margin-bottom: 0;
+        padding-bottom: 1em;
+    }
+    .why-us{
+        padding-top: 2em;
     }
 }
