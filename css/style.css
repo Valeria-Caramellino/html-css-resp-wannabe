@@ -133,7 +133,7 @@ img {
  /**********************************************
  PRIMA SEZIONE LESSONS SECTION
 ************************************************/
-@media screen and ( min-width:796px ) {
+@media screen and ( min-width:769px ) {
     body{
         width: 100%;
     }
